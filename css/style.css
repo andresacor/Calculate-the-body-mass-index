@@ -1,0 +1,85 @@
+body{
+	background:antiquewhite;
+}
+
+#imc{
+	margin:auto;
+	width:46.875%;
+	height:100px;
+	border-radius:5px;
+	background:LightSlateGray;
+	padding:10px;
+}
+
+#table{
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	}
+
+tbody{
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+}
+
+#salida{
+	font:.75em verdana;
+	color:#fff;
+	text-align:center;
+}
+
+#salida2{
+	color:#000;
+	text-align:center;
+	font:.75em verdana;
+}
+
+.salida{
+	width:20%;
+	height:auto;
+	margin:auto;
+	background:#fff;
+	border-radius:5px;
+}
+
+h2{
+	font:bold 1em verdana;
+	text-align:center;
+}
+
+input{
+	margin-top:10px;
+	border-radius:5px;
+	border:none;
+	padding:10px;
+	font-size:14px;
+	color:DarkCyan;
+	outline:0;
+}
+
+.buttons{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	width:250px;
+	margin:auto;
+	margin-top:20px;
+}
+
+button{
+	background:#000;
+	background: -webkit-linear-gradient(#333, #000);
+	background: -moz-linear-gradient(#333, #000);
+	border-radius:5px;
+	color:#fafafa;
+	border:none;
+	padding:6px 9px;
+	outline:0;
+}
+
+button:hover{
+	background: -webkit-linear-gradient(#000, #333);
+	background: -moz-linear-gradient(#000, #333);
+	cursor:pointer;
+}
